@@ -1,0 +1,12 @@
+name: WantedEconomy
+version: 1.0
+main: ru.wantedcraft.economy.WantedEconomy
+api-version: '1.20'
+commands:
+  money:
+    description: Проверить баланс денег.
+  pay:
+    description: Перевести деньги другому игроку.
+  wanted:
+    description: Установить уровень розыска игроку.
+    permission: wantedcraft.admin
